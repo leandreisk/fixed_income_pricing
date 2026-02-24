@@ -71,6 +71,7 @@ env/
 *.csv
 *.xlsx
 *.xls
+*.toml
 data/
 output/
 
