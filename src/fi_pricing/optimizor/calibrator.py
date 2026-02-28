@@ -36,6 +36,7 @@ class ModelCalibrator:
                     bounds=bounds,
                     maxiter=self.max_iter,
                     tol=self.tol,
+                    seed=42,
                     disp=True
                 )
             else: 
@@ -52,7 +53,7 @@ class ModelCalibrator:
         
         if self.optimization_result.success:
             print("Calibration successful!")
-            print(f"Final Loss: {self.optimization_result.fun:.6e}")
+            print(f"Final Loss: {self.optimization_result.fun:.4e}")
         else:
             print("Calibration failed or did not converge perfectly.")
             print(f"Message: {self.optimization_result.message}")
