@@ -27,8 +27,8 @@ Supported dynamics include:
 - [x] **Closed-Form Pricing**: Formulas for ZCBs and European options on ZCBs (Bond Puts/Calls).
 - [x] **Coupon Bond Options**: Generic pricer using **Jamshidian's Decomposition** for any one-factor affine model.
 - [x] **Hull-White Model**: Implementation with exact calibration to NSS input curves.
-- [ ] **Calibration Engine**: Global optimizer to calibrate model parameters $(\kappa, \theta, \sigma)$ to market swaption volatilities.
-- [ ] **Multi-Factor Support**: Architecture ready for G2++ (2-factor additive Gaussian).
+- [x] **Calibration Engine**: Global optimizer to calibrate model parameters $(\kappa, \theta, \sigma)$ to market swaption volatilities.
+- [x] **Multi-Factor Support**: Architecture ready for G2++ (2-factor additive Gaussian).
 - [ ] **Stochastic Volatility**: Future extension for Heston-Hull-White hybrid models.
 
 ## References
