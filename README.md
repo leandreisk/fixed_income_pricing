@@ -29,7 +29,6 @@ Supported dynamics include:
 - [x] **Hull-White Model**: Implementation with exact calibration to NSS input curves.
 - [x] **Calibration Engine**: Global optimizer to calibrate model parameters $(\kappa, \theta, \sigma)$ to market swaption volatilities.
 - [x] **Multi-Factor Support**: Architecture ready for G2++ (2-factor additive Gaussian).
-- [ ] **Stochastic Volatility**: Future extension for Heston-Hull-White hybrid models.
 
 ## References
 
